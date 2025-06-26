@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Phone, Mail, MapPin, Clock, Send } from 'lucide-react';
+import { Instagram } from 'lucide-react';
+
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -100,16 +102,13 @@ const Contact = () => {
 
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-yellow-500 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <MapPin className="w-6 h-6" />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-lg mb-1">Address</h4>
-                      <p className="text-gray-300">
-                        14/A, 5th Street, RKV Avenue,<br />
-                        Old Pallavaram - 600117<br />
-                        Chennai, Tamil Nadu
-                      </p>
-                    </div>
+  <Instagram className="w-6 h-6 text-white" />
+</div>
+<div>
+  <h4 className="font-semibold text-lg mb-1">Instagram</h4>
+  <p className="text-gray-300">@vn_consultants</p>
+</div>
+
                   </div>
 
                   <div className="flex items-start space-x-4">

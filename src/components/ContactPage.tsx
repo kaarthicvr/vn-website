@@ -1,5 +1,7 @@
 import React from 'react';
 import { Phone, Mail, MapPin, ArrowLeft, Building, Users, Target, TrendingUp } from 'lucide-react';
+import { Instagram } from 'lucide-react';
+
 
 const ContactPage = ({ onBack }: { onBack: () => void }) => {
   const visionPoints = [
@@ -90,7 +92,7 @@ const ContactPage = ({ onBack }: { onBack: () => void }) => {
                   />
                 </div>
                 <h2 className="text-3xl font-bold text-gray-800 mb-2 animate-slideInLeft animation-delay-200">
-                  Chennai Office
+                  Contact Us Through
                 </h2>
                 <div className="w-16 h-1 bg-yellow-500 mx-auto animate-expandWidth animation-delay-400"></div>
               </div>
@@ -99,16 +101,15 @@ const ContactPage = ({ onBack }: { onBack: () => void }) => {
               <div className="space-y-8">
                 {/* Address */}
                 <div className="text-center animate-slideInLeft animation-delay-600">
-                  <div className="w-12 h-12 bg-yellow-500 rounded-lg flex items-center justify-center mx-auto mb-4 shadow-lg">
-                    <MapPin className="w-6 h-6 text-white" />
-                  </div>
-                  <h3 className="font-bold text-lg text-gray-800 mb-2 animate-fadeInUp">Address</h3>
-                  <div className="text-gray-600 leading-relaxed animate-slideInUp animation-delay-200">
-                    <p>14/A, 5th Street, RKV Avenue,</p>
-                    <p>Old Pallavaram - 600117</p>
-                    <p>Chennai, Tamil Nadu</p>
-                  </div>
-                </div>
+  <div className="w-12 h-12 bg-yellow-500 rounded-lg flex items-center justify-center mx-auto mb-4 shadow-lg">
+    <Instagram className="w-6 h-6 text-white" />
+  </div>
+  <h3 className="font-bold text-lg text-gray-800 mb-2 animate-fadeInUp">Instagram</h3>
+  <div className="text-gray-600 leading-relaxed animate-slideInUp animation-delay-200">
+    <p>@vn_consultants</p>
+  </div>
+</div>
+
 
                 {/* Phone */}
                 <div className="text-center animate-slideInRight animation-delay-800">

@@ -13,7 +13,7 @@ const Hero = ({ onContactClick }: { onContactClick: () => void }) => {
         <div className="max-w-4xl mx-auto text-center">
           {/* Animated Logo */}
           <div className="mb-8 animate-fadeInUp">
-            <div className="w-24 h-24 mx-auto mb-4 flex items-center justify-center transform hover:scale-110 transition-transform duration-300">
+            <div className="w-30 h-30 mx-auto mb-4 flex items-center justify-center transform hover:scale-110 transition-transform duration-300">
               <img 
                 src="/Untitled_design-removebg-preview.png" 
                 alt="VN Consultants Logo" 

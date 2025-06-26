@@ -9,18 +9,19 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4 animate-fadeInUp">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 flex items-center justify-center">
-                <img 
-                  src="/Untitled_design-removebg-preview.png" 
-                  alt="VN Consultants Logo" 
-                  className="w-10 h-10 object-contain"
-                />
-              </div>
-              <div>
-                <h3 className="text-xl font-bold animate-slideInLeft">VN Consultants</h3>
-                <p className="text-sm text-gray-400 animate-slideInLeft animation-delay-200">Your Trusted Business Partner</p>
-              </div>
-            </div>
+  <div className="w-16 h-16 flex items-center justify-center">
+    <img 
+      src="/Untitled_design-removebg-preview.png" 
+      alt="VN Consultants Logo" 
+      className="w-16 h-16 object-contain"
+    />
+  </div>
+  <div>
+    <h3 className="text-xl font-bold animate-slideInLeft">VN Consultants</h3>
+    <p className="text-sm text-gray-400 animate-slideInLeft animation-delay-200">Your Trusted Business Partner</p>
+  </div>
+</div>
+
             <p className="text-gray-400 text-sm leading-relaxed animate-fadeInUp animation-delay-400">
               Simplifying business operations with expert compliance, accounting, and taxation services. 
               Your success is our commitment.
@@ -63,12 +64,10 @@ const Footer = () => {
                 <span className="text-gray-400">info.vnconsultants@gmail.com</span>
               </div>
               <div className="flex items-start space-x-2 animate-slideInLeft animation-delay-400">
-                <MapPin className="w-4 h-4 text-yellow-400 mt-1" />
-                <span className="text-gray-400">
-                  14/A, R.K.V Avenue, 5th Street,<br />
-                  Old Pallavaram - 600117
-                </span>
-              </div>
+  <Instagram className="w-4 h-4 text-yellow-400 mt-1" />
+  <span className="text-gray-400">@vn_consultants</span>
+</div>
+
             </div>
           </div>
         </div>

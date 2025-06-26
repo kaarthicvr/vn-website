@@ -21,18 +21,19 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="flex items-center space-x-3 animate-slideInLeft">
-            <div className="w-12 h-12 flex items-center justify-center">
-              <img 
-                src="/Untitled_design-removebg-preview.png" 
-                alt="VN Consultants Logo" 
-                className="w-12 h-12 object-contain"
-              />
-            </div>
-            <div>
-              <h1 className="text-xl font-bold text-gray-800 animate-fadeInUp">VN Consultants</h1>
-              <p className="text-xs text-gray-600 animate-fadeInUp animation-delay-200">Your Trusted Business Partner</p>
-            </div>
-          </div>
+  <div className="w-18 h-18 flex items-center justify-center">
+    <img 
+      src="/Untitled_design-removebg-preview.png" 
+      alt="VN Consultants Logo" 
+      className="w-16 h-16 object-contain"
+    />
+  </div>
+  <div>
+    <h1 className="text-xl font-bold text-gray-800 animate-fadeInUp">VN Consultants</h1>
+    <p className="text-xs text-gray-600 animate-fadeInUp animation-delay-200">Your Trusted Business Partner</p>
+  </div>
+</div>
+
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
